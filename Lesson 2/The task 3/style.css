@@ -1,0 +1,53 @@
+.header{
+    width: 90%;
+    height: 100px;
+    margin: 0 5%;
+    border: 1px solid black;
+    background-color: black;
+    border-bottom-right-radius:100%;
+    border-bottom-left-radius: 100%;
+
+}
+
+.section{
+    position: relative;
+}
+
+.menu{
+    position: fixed;
+    width: 10%;
+    height: 600px;
+    background-color:rgb(191, 230, 22);
+    opacity: 0.4;
+}
+
+.section_centre{
+    position: absolute;
+    width: 85%;
+    left: 160px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.footer{
+    position: absolute;
+    border: 1px solid black;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+    left:100px ;
+    bottom: 5px;
+    width: 90%;
+    height: 15%;
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    list-style: none;
+}
+
+
+
