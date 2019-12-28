@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.div{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 150px;
+    border: lime solid 1px;
+    background-color: lime;
+}
+
+.registr{
+    font-weight: 900;
+}
+
+.done{
+    position: absolute;
+    align-items: flex-end;
+}
+
+.ann{
+    background-color: brown;
+}
